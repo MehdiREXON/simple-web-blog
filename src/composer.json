@@ -1,0 +1,20 @@
+{
+    "name": "rexon/project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "./helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "MehdiREXON",
+            "email": "m.ghazanfari1384@gmail.com"
+        }
+    ],
+    "require": {}
+}
