@@ -2,14 +2,8 @@
 
 use App\Classes\Request;
 use App\Classes\Auth;
-use App\Exceptions\DoesNotExistsException;
-use App\Exceptions\NotFoundException;
-use App\Templates\CreatePage;
-use App\Templates\DeletePage;
-use App\Templates\EditPage;
-use App\Templates\ErrorPage;
-use App\Templates\NotFoundPage;
-use App\Templates\PostPage;
+use App\Exceptions\{DoesNotExistsException,NotFoundException};
+use App\Templates\{CreatePage,DeletePage,EditPage,ErrorPage,PostPage,NotFoundPage};
 
 session_start();
 

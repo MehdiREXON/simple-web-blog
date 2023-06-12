@@ -69,7 +69,6 @@ abstract class Template
             <footer>
         <div class="footer-content">
             <div class="social-media">
-                <!-- Add your social media logo placeholders here -->
                 <img src="<?= assets("instagramLogo.png")?>" width="20" height="20" alt="Instagram">
                 <img src="<?= assets("linkedinLogo.png")?>" width="20" height="20" alt="Linkedin">
                 <img src="<?= assets("twitterLogo.png")?>" width="20" height="20" alt="Twitter">
